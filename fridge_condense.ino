@@ -93,8 +93,8 @@ Serial.println("end ehlo");
 
   Serial.println("end"); 
 
-  echo("YmVsbGtyaXNoQGdtYWlsLmNvbQ==");
-  echo("YnN0Z2Z2bmJrdWJ3dHlpZw==");
+  echo("64bit encoded pass"); //removed from github for security
+  echo("64bit encoded pass"); //removed from github for security
   echo("MAIL FROM:<bellkrish@gmail.com>");
 
   echo("RCPT TO:<bellkrish@gmail.com>");
@@ -104,8 +104,8 @@ Serial.println("end ehlo");
 
   echo("To: Krish");
   echo("From: Krish");
-  echo("Subject: you suck");
-  echo("yee");
+  echo("Subject: Oh hello");
+  echo("Hello World");
   echo(".");
   echo("QUIT");
   
