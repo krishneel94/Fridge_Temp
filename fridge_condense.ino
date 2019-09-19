@@ -93,8 +93,8 @@ Serial.println("end ehlo");
 
   Serial.println("end"); 
 
-  echo("64bit encoded pass"); //removed from github for security
-  echo("64bit encoded pass"); //removed from github for security
+  echo("base64 encoded email"); //removed from github for security
+  echo("base64 encoded pass"); //removed from github for security
   echo("MAIL FROM:<bellkrish@gmail.com>");
 
   echo("RCPT TO:<bellkrish@gmail.com>");
